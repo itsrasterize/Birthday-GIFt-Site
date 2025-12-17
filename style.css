@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:  linear-gradient(#0f172a, #475569);
+    font-family: 'Happy Monkey' , cursive;
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile {
+    border: 4px solid #475569;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1, h2, h4 {
+    text-shadow: 0 0 1px black;
+}
+
+#age {
+    background-color: #475569;
+    padding: 10px;
+    margin: 10px 0 25px 0 ;
+    border-radius: 5px;
+}
+
+#birthday {
+    background-color: #475569;
+    padding: 10px;
+    margin: 2px 0 ;
+    border-radius: 5px;
+}
+
+.gift-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gift-title  {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hint {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.gift-wrap {
+    margin: 0;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+}
+
+#happy:hover {
+    background-image: url(images/happy.gif);
+}
+
+#shock:hover {
+    background-image: url(images/shock.gif);
+}
+
+#techguy:hover {
+    background-image: url(images/techguy.gif);
+}
+
+#badass:hover {
+    background-image: url(images/badass.gif);
+}
+
+#cheers {
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+#cheers:hover {
+    background-image: url(images/cheers.gif);
+}
+
+#footer {
+    font-size:x-large;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; /* center horizontally */
+    gap: 20px;               /* space between icons */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#ig,#blue,#linked,#github {
+    text-decoration: none;
+    
+}
+
+#ig:hover {
+    transform: scale(1.2);
+    color: black;
+}
+
+#blue:hover {
+    transform: scale(1.2);
+    color: black;
+}
+
+#linked:hover {
+     transform: scale(1.2);
+     color: black;
+}
+
+#github:hover {
+     transform: scale(1.2);
+     color: black;
+}
+
+a {
+    color: white;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.back-to-top:hover {
+    color: black;
+}
