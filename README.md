@@ -3,7 +3,7 @@ A simple birthday site full of interactive gifs of suprises.
 
 Usage
 
-How to use your project:
+How to use the project:
 
 Open index.html in a browser
 
@@ -26,6 +26,7 @@ Images from images/ folder
 Font: Happy Monkey
 
 Inspired by personal birthday ideas
+
 
 
 Contact me at:jamestheitstaff@gmail.com
